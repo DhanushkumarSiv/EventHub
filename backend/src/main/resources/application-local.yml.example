@@ -1,0 +1,8 @@
+# Copy to application-local.yml (gitignored) if you prefer file-based local secrets
+# instead of environment variables. Activate with:
+# SPRING_PROFILES_ACTIVE=dev,local
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/eventhub
+    username: postgres
+    password: change-me
